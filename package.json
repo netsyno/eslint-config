@@ -1,0 +1,29 @@
+{
+  "name": "@netsyno/eslint-config",
+  "version": "1.0.0",
+  "description": "Configuration for eslint based on airbnb config with prettier support",
+  "main": "config.js",
+  "author": "Josef Roth <jr@netsyno.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/netsyno/eslint-config"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "netsyno"
+  ],
+  "dependencies": {
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-config-prettier": "^2.9.0"
+  },
+  "peerDependencies": {
+    "babel-eslint": "^8.2.5",
+    "eslint": "^4.19.1",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.9.1"
+  }
+}
