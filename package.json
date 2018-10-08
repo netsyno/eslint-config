@@ -15,6 +15,11 @@
     "config",
     "netsyno"
   ],
+  "files": [
+    "config.js",
+    "package.json",
+    "README.md"
+  ],
   "dependencies": {
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^3.1.0"
